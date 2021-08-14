@@ -16,3 +16,35 @@
   height: 25px;
   margin-top: 8px;
 }
+
+.question-text {
+  background-color: white;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, rgba(35, 190, 190, 0.7), rgba(230, 90, 100, 0.7));
+  border-radius: 3px;
+  border-width: 5px;
+  box-shadow: 0 0 15px currentColor;
+  color: rgb(231, 60, 126);
+  font-family: Courier New , Courier , monospace;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1em auto;
+  padding: 0.3em;
+  width: 80%;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, rgba(35, 190, 190, 0.7), rgba(230, 90, 100, 0.7));
+  border-radius: 3px;
+  border-width: 3px;
+  box-shadow: 0 0 15px currentColor;
+  color: rgb(45, 20, 50);
+  font-size: 0.6em;
+  font-weight: 600;
+  margin: 0.5em 0;
+  padding: 0.3em;
+}
